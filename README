@@ -1,0 +1,12 @@
+Taylor Arnold and Jay Emerson
+August 25, 2011
+
+This revision to ks.test() will complement an applied paper
+(Emerson and Arnold 2011 to appear in the American Statistician)
+and is part of the subject of another paper (in submission
+to the R Journal); once we're happy we may propose a change
+to R's stats::ks.test.
+
+Please send questions or comments to Jay <john.emerson@yale.edu>
+and Taylor <taylor.arnold@yale.edu>
+

@@ -1,0 +1,20 @@
+citHeader("To cite dgof in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Nonparametric Goodness-of-Fit Tests for Discrete Null Distributions",
+  author       = personList(as.person("Taylor A. Arnold"),
+                   as.person("John W. Emerson")),
+  journal      = "The R Journal",
+  year         = "in submission",
+  volume       = "NA",
+  number       = "NA",
+  pages        = "NA",
+  url          = "http://journal.r-project.org/",
+
+  textVersion  =
+  paste("Taylor A. Arnold, John W. Emerson (2011),",
+        "Nonparametric Goodness-of-Fit Tests for Discrete Null Distributions,",
+        "The R Journal, in submission, ",
+        "URL http://journal.r-project.org/.")
+)
+
