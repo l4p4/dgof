@@ -101,7 +101,9 @@ cvm.test <- function(x,y, type=c("W2", "U2", "A2"),
   DNAME <- deparse(substitute(x))
   if(is.stepfun(y)) {
     if(length(setdiff(x, knots(y))) != 0) {
-      stop("Data are incompatable with null distribution")
+      stop("Data are incompatable with null distribution; "
+           "Note: This function is meant only for discrete distributions ",
+           "you may be receiving this error because y is continuous.")
     }
     tempout <- cvm.stat.disc(x,y,type=type)
     STAT <- tempout[1]
