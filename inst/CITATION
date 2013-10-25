@@ -5,16 +5,16 @@ citEntry(entry = "Article",
   author       = personList(as.person("Taylor A. Arnold"),
                    as.person("John W. Emerson")),
   journal      = "The R Journal",
-  year         = "in submission",
-  volume       = "NA",
-  number       = "NA",
-  pages        = "NA",
-  url          = "http://journal.r-project.org/",
+  year         = "2011",
+  volume       = "3",
+  number       = "2",
+  pages        = "34--39",
+  url          = "http://journal.r-project.org/archive/2011-2/RJournal_2011-2_Arnold+Emerson.pdf",
 
   textVersion  =
-  paste("Taylor A. Arnold, John W. Emerson (2011),",
+  paste("Taylor B. Arnold, John W. Emerson (2011),",
         "Nonparametric Goodness-of-Fit Tests for Discrete Null Distributions,",
-        "The R Journal, in submission, ",
-        "URL http://journal.r-project.org/.")
+        "The R Journal, Vol. 3/2, December 2011, ",
+        "URL: http://journal.r-project.org/archive/2011-2/RJournal_2011-2_Arnold+Emerson.pdf")
 )
 
